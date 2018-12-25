@@ -78,3 +78,9 @@ roslaunch src/nav_bundle/launch/nav_bundle.launch
 ```
 
 * When the world starts, in rviz, select '2D Nav Goal' and point to a closer cell that has been explored
+
+## Contributors
+
+* Daniel Boreham
+* Lucas Frey [lcsfrey](https://github.com/lcsfrey)
+* Mazen Alotaibi [madebymaze](https://github.com/madebymaze)
