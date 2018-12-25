@@ -1,0 +1,17 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "",
+        "limitSymbolsToIncludedHeaders": true
+      },
+      "includePath": [
+        "/opt/ros/kinetic/include",
+        "/home/mazen/rob456/src/rob456_hw3/include",
+        "/home/mazen/rob456/src/rob456_project/include",
+        "/usr/include"
+      ],
+      "name": "Linux"
+    }
+  ]
+}

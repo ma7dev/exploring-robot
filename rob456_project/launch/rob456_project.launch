@@ -1,0 +1,10 @@
+<launch>
+  <!-- Launch world -->
+  <node pkg="stage_ros" type="stageros" name="simulator" args="$(find rob456_project)/worlds/manyDotsNoisyOdom.world"/>
+  
+  <!-- Launch move_in_square -->
+  <node pkg="rob456_project" type="explore.py" name="explore" output="screen"/>
+  
+  <!-- Visualize -->
+  <node pkg="rviz" type="rviz" name="rviz" args="-d $(find rob456_project)/rvizsetup.rviz"/>
+</launch>
